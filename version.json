@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "version": "0.22.1",
+  "release_notes": [
+    "首次启用公开更新仓库",
+    "验证版本检查、安装包下载和 SHA-256 校验"
+  ],
+  "installer_url": "https://github.com/ggyx419-maker/WuhusihaiGrab-Updates/releases/download/v0.22.1/WuhusihaiGrab-Setup-v0.22.1.exe",
+  "installer_size": 153137472,
+  "installer_sha256": "10d93ccd8612aca385bcb72e6ea5e9209bf38c501a5b5492a73e4e0887e40d29"
+}
