@@ -1,13 +1,14 @@
 {
   "schema_version": 1,
-  "version": "0.22.2",
+  "version": "0.22.3",
+  "force_update": true,
+  "min_supported_version": "0.0.0",
   "release_notes": [
-    "新增至臻支付平台适配",
-    "完成安装版自动更新流程",
-    "优化抢单日志实时反馈与延迟显示",
-    "优化 Debug 与底部操作区 UI"
+    "正式发布允许未签名安装包，并记录 installer_not_signed warning",
+    "保留 HTTPS、文件大小、SHA256、版本校验和禁止降级",
+    "安装包与安装后显示名称统一为五湖四海抢单助手"
   ],
-  "installer_url": "https://github.com/ggyx419-maker/WuhusihaiGrab-Updates/releases/download/v0.22.2/WuhusihaiGrab-Setup-v0.22.2.exe",
-  "installer_size": 153135331,
-  "installer_sha256": "b1c41d819e5d4b5ad725aacde47afb8bc8d41d3ca3295e72b5f2e5f8b2acaf16"
+  "installer_url": "https://github.com/ggyx419-maker/WuhusihaiGrab-Updates/releases/download/v0.22.3/WuhusihaiGrab-Setup-v0.22.3.exe",
+  "installer_size": 153319199,
+  "installer_sha256": "70b31cc2a47a404bacfeefb514fac7f7df91114c58090c2c943d5ba0e36f9d47"
 }
