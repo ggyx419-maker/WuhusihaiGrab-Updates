@@ -1,14 +1,15 @@
 {
   "schema_version": 1,
-  "version": "0.22.3",
+  "version": "0.22.4",
   "force_update": true,
   "min_supported_version": "0.0.0",
   "release_notes": [
-    "正式发布允许未签名安装包，并记录 installer_not_signed warning",
-    "保留 HTTPS、文件大小、SHA256、版本校验和禁止降级",
-    "安装包与安装后显示名称统一为五湖四海抢单助手"
+    "新增 EVO 集团与汇丰支付平台适配",
+    "新增 KK 支付平台适配",
+    "平台标签中文化",
+    "改进内置浏览器 Cloudflare 兼容性"
   ],
-  "installer_url": "https://github.com/ggyx419-maker/WuhusihaiGrab-Updates/releases/download/v0.22.3/WuhusihaiGrab-Setup-v0.22.3.exe",
-  "installer_size": 153319199,
-  "installer_sha256": "70b31cc2a47a404bacfeefb514fac7f7df91114c58090c2c943d5ba0e36f9d47"
+  "installer_url": "https://github.com/ggyx419-maker/WuhusihaiGrab-Updates/releases/download/v0.22.4/WuhusihaiGrab-Setup-v0.22.4.exe",
+  "installer_size": 153302585,
+  "installer_sha256": "69eababe8c3ed46d4c5f5668fd88f65a102bc412c0e9b0f14ec7813ae4c905e9"
 }
