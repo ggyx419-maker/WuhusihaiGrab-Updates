@@ -1,13 +1,17 @@
 {
   "schema_version": 1,
-  "version": "0.22.5",
+  "version": "0.22.6",
   "force_update": true,
   "min_supported_version": "0.0.0",
   "release_notes": [
-    "新增十年支付与黑马支付平台适配",
-    "改进自动更新流程稳定性与进度提示"
+    "新增 RM 与 KK 供应商平台自动识别适配",
+    "修复锁单失败后未继续尝试的问题",
+    "修复缓存安装包被占用时更新失败的问题",
+    "新增远程广告、启动公告与完整崩溃诊断反馈",
+    "优化免费工具标识、标题栏主题与平台标签显示",
+    "修复快速重启分身时 Chromium storage 文件锁冲突"
   ],
-  "installer_url": "https://github.com/ggyx419-maker/WuhusihaiGrab-Updates/releases/download/v0.22.5/WuhusihaiGrab-Setup-v0.22.5.exe",
-  "installer_size": 182044641,
-  "installer_sha256": "e533caa23580b4a6407d249797984782699744ad74036f8b8d223fb6c942faf6"
+  "installer_url": "https://github.com/ggyx419-maker/WuhusihaiGrab-Updates/releases/download/v0.22.6/WuhusihaiGrab-Setup-v0.22.6.exe",
+  "installer_size": 182349414,
+  "installer_sha256": "e18ab28f3b2c3467134dd4476f179b8085e17778e0050245cedbb75214dc1a5c"
 }
