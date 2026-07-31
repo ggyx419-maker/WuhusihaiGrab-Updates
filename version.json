@@ -1,12 +1,15 @@
 {
   "schema_version": 1,
-  "version": "0.22.8",
+  "version": "0.22.9",
   "force_update": true,
   "min_supported_version": "0.0.0",
   "release_notes": [
-    "修复自动更新下载线程跨线程操作界面导致软件闪退的问题"
+    "新增 Android 投屏辅助和付款任务管理，付款确认仍由人工完成",
+    "提升抢单运行稳定性并补充性能指标展示",
+    "修复抢单配置筛选项遮挡问题",
+    "修复 ONE 平台加密抢单请求"
   ],
-  "installer_url": "https://github.com/ggyx419-maker/WuhusihaiGrab-Updates/releases/download/v0.22.8/WuhusihaiGrab-Setup-v0.22.8.exe",
-  "installer_size": 182362312,
-  "installer_sha256": "bafc31711dd077fb5acf7b59e96ab93fe6450fef791c2b4a2f74af32db1ca18d"
+  "installer_url": "https://github.com/ggyx419-maker/WuhusihaiGrab-Updates/releases/download/v0.22.9/WuhusihaiGrab-Setup-v0.22.9.exe",
+  "installer_size": 191106614,
+  "installer_sha256": "555d3ed3e5836dddc272aa7d4f49fcc0d8f76f64ad51dd35b789fa8abcaef79b"
 }
