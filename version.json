@@ -1,15 +1,13 @@
 {
   "schema_version": 1,
-  "version": "0.22.9",
+  "version": "0.23.0",
   "force_update": true,
   "min_supported_version": "0.0.0",
   "release_notes": [
-    "新增 Android 投屏辅助和付款任务管理，付款确认仍由人工完成",
-    "提升抢单运行稳定性并补充性能指标展示",
-    "修复抢单配置筛选项遮挡问题",
-    "修复 ONE 平台加密抢单请求"
+    "优化浅色与深色主题、控件样式和工作台布局",
+    "Windows 安装包移除 Android 辅助、ADB/scrcpy 工具和付款辅助入口"
   ],
-  "installer_url": "https://github.com/ggyx419-maker/WuhusihaiGrab-Updates/releases/download/v0.22.9/WuhusihaiGrab-Setup-v0.22.9.exe",
-  "installer_size": 191106614,
-  "installer_sha256": "555d3ed3e5836dddc272aa7d4f49fcc0d8f76f64ad51dd35b789fa8abcaef79b"
+  "installer_url": "https://github.com/ggyx419-maker/WuhusihaiGrab-Updates/releases/download/v0.23.0/WuhusihaiGrab-Setup-v0.23.0.exe",
+  "installer_size": 182410798,
+  "installer_sha256": "694ca41f5dd4c09348e237ec40691a388b6ef4736685b190300157c68899058e"
 }
