@@ -1,13 +1,15 @@
 {
   "schema_version": 1,
-  "version": "0.23.0",
+  "version": "1.0.0",
   "force_update": true,
   "min_supported_version": "0.0.0",
   "release_notes": [
-    "优化浅色与深色主题、控件样式和工作台布局",
-    "Windows 安装包移除 Android 辅助、ADB/scrcpy 工具和付款辅助入口"
+    "统一浅色与深色工作台视觉，优化详细日志控件和面板布局",
+    "增强 KK 平台识别及 Cloudflare 登录状态保存与系统浏览器回退",
+    "优化窄窗口和大字体下的执行控制可读性",
+    "Windows 安装包继续不包含 Android 辅助、ADB/scrcpy 工具和付款辅助入口"
   ],
-  "installer_url": "https://github.com/ggyx419-maker/WuhusihaiGrab-Updates/releases/download/v0.23.0/WuhusihaiGrab-Setup-v0.23.0.exe",
-  "installer_size": 182410798,
-  "installer_sha256": "694ca41f5dd4c09348e237ec40691a388b6ef4736685b190300157c68899058e"
+  "installer_url": "https://github.com/ggyx419-maker/WuhusihaiGrab-Updates/releases/download/v1.0.0/WuhusihaiGrab-Setup-v1.0.0.exe",
+  "installer_size": 182535252,
+  "installer_sha256": "e1af8273be10589c73935af9b42af8fe3d9e24d5c5e5a76a198b88ce16d873bc"
 }
