@@ -1,15 +1,14 @@
 {
   "schema_version": 1,
-  "version": "1.0.0",
+  "version": "1.0.1",
   "force_update": true,
   "min_supported_version": "0.0.0",
   "release_notes": [
-    "统一浅色与深色工作台视觉，优化详细日志控件和面板布局",
-    "增强 KK 平台识别及 Cloudflare 登录状态保存与系统浏览器回退",
-    "优化窄窗口和大字体下的执行控制可读性",
-    "Windows 安装包继续不包含 Android 辅助、ADB/scrcpy 工具和付款辅助入口"
+    "新增动态广告播放，支持静音循环、轮播暂停和点击跳转",
+    "增强 KK 和 RM 登录页识别及接口错误提示",
+    "新增详细日志下的抢单性能采样与诊断展示"
   ],
-  "installer_url": "https://github.com/ggyx419-maker/WuhusihaiGrab-Updates/releases/download/v1.0.0/WuhusihaiGrab-Setup-v1.0.0.exe",
-  "installer_size": 182535252,
-  "installer_sha256": "e1af8273be10589c73935af9b42af8fe3d9e24d5c5e5a76a198b88ce16d873bc"
+  "installer_url": "https://github.com/ggyx419-maker/WuhusihaiGrab-Updates/releases/download/v1.0.1/WuhusihaiGrab-Setup-v1.0.1.exe",
+  "installer_size": 182573819,
+  "installer_sha256": "68a7a879aaad19b26fb1cce660b2c28c6b10c621add0533138370722986593a9"
 }
