@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
-  "version": "1.0.1",
+  "version": "1.0.2",
   "force_update": true,
   "min_supported_version": "0.0.0",
   "release_notes": [
-    "新增动态广告播放，支持静音循环、轮播暂停和点击跳转",
-    "增强 KK 和 RM 登录页识别及接口错误提示",
-    "新增详细日志下的抢单性能采样与诊断展示"
+    "新增瑞吉平台站点自动识别与名称持久化",
+    "新增浏览器页签抢单状态展示，并优化页签卡片布局",
+    "支持多分身独立抢单，运行日志显示对应平台来源"
   ],
-  "installer_url": "https://github.com/ggyx419-maker/WuhusihaiGrab-Updates/releases/download/v1.0.1/WuhusihaiGrab-Setup-v1.0.1.exe",
-  "installer_size": 182573819,
-  "installer_sha256": "68a7a879aaad19b26fb1cce660b2c28c6b10c621add0533138370722986593a9"
+  "installer_url": "https://github.com/ggyx419-maker/WuhusihaiGrab-Updates/releases/download/v1.0.2/WuhusihaiGrab-Setup-v1.0.2.exe",
+  "installer_size": 182597692,
+  "installer_sha256": "a8774158bbe3c43f2520e7fcdf71c0a973c70c609d52780b3a02c582b3be2cb7"
 }
