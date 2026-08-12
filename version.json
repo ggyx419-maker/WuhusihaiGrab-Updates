@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
-  "version": "1.0.2",
+  "version": "1.0.3",
   "force_update": true,
   "min_supported_version": "0.0.0",
   "release_notes": [
-    "新增瑞吉平台站点自动识别与名称持久化",
-    "新增浏览器页签抢单状态展示，并优化页签卡片布局",
-    "支持多分身独立抢单，运行日志显示对应平台来源"
+    "新增抢单次数与最近一次抢单耗时展示",
+    "保留抢单失败的原始异常详情，便于问题诊断",
+    "优化浏览器页签卡片间距与界面布局"
   ],
-  "installer_url": "https://github.com/ggyx419-maker/WuhusihaiGrab-Updates/releases/download/v1.0.2/WuhusihaiGrab-Setup-v1.0.2.exe",
-  "installer_size": 182597692,
-  "installer_sha256": "a8774158bbe3c43f2520e7fcdf71c0a973c70c609d52780b3a02c582b3be2cb7"
+  "installer_url": "https://github.com/ggyx419-maker/WuhusihaiGrab-Updates/releases/download/v1.0.3/WuhusihaiGrab-Setup-v1.0.3.exe",
+  "installer_size": 182633037,
+  "installer_sha256": "31227a06d33889df382d13556fedee26d7b590b736ce72f264cdc1b7b628f01f"
 }
