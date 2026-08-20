@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
-  "version": "1.0.3",
+  "version": "1.0.4",
   "force_update": true,
   "min_supported_version": "0.0.0",
   "release_notes": [
-    "新增抢单次数与最近一次抢单耗时展示",
-    "保留抢单失败的原始异常详情，便于问题诊断",
-    "优化浏览器页签卡片间距与界面布局"
+    "优化黑马、瑞吉、KK 等平台订单查询与支付方式筛选",
+    "新增浏览器平衡指纹隐私保护，降低分身特征关联风险",
+    "精简抢单运行日志并优化配置界面与应用图标"
   ],
-  "installer_url": "https://github.com/ggyx419-maker/WuhusihaiGrab-Updates/releases/download/v1.0.3/WuhusihaiGrab-Setup-v1.0.3.exe",
-  "installer_size": 182633037,
-  "installer_sha256": "31227a06d33889df382d13556fedee26d7b590b736ce72f264cdc1b7b628f01f"
+  "installer_url": "https://github.com/ggyx419-maker/WuhusihaiGrab-Updates/releases/download/v1.0.4/WuhusihaiGrab-Setup-v1.0.4.exe",
+  "installer_size": 184465287,
+  "installer_sha256": "93556ac21547f88f866066097d5dd25adbd41af6dfd43b5c133233b4bfbd3853"
 }
