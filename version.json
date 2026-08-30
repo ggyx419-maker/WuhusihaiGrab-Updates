@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "version": "1.0.6",
+  "version": "1.0.7",
   "force_update": true,
   "min_supported_version": "0.0.0",
   "release_notes": [
-    "修复 RM/ONE 请求，改用平台原生加密客户端"
+    "修复 RM 站点新版浏览器协议兼容，提升页面加载与接口调用稳定性"
   ],
-  "installer_url": "https://github.com/ggyx419-maker/WuhusihaiGrab-Updates/releases/download/v1.0.6/WuhusihaiGrab-Setup-v1.0.6.exe",
-  "installer_size": 184489524,
-  "installer_sha256": "5232cb1b2107f3c6d2b06f90a4b937136360b40915326baaf4d917261766c3f7"
+  "installer_url": "https://github.com/ggyx419-maker/WuhusihaiGrab-Updates/releases/download/v1.0.7/WuhusihaiGrab-Setup-v1.0.7.exe",
+  "installer_size": 184473793,
+  "installer_sha256": "76ab1927c966b7dc3a8ac6da1e3e61b6dd87a5803048edddd35af72b0be4ad68"
 }
