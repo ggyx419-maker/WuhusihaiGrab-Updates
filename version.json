@@ -1,12 +1,13 @@
 {
   "schema_version": 1,
-  "version": "1.0.8",
+  "version": "1.0.9",
   "force_update": true,
   "min_supported_version": "0.0.0",
   "release_notes": [
-    "修复 RM 站点新版浏览器协议兼容，提升页面加载与接口调用稳定性"
+    "修复 RM 站点后端间歇性返回 Code=0 但缺少 Data 的不完整响应，改为静默重试，避免误报无订单",
+    "适配 onezhifu.xyz 新域名"
   ],
-  "installer_url": "https://github.com/ggyx419-maker/WuhusihaiGrab-Updates/releases/download/v1.0.8/WuhusihaiGrab-Setup-v1.0.8.exe",
-  "installer_size": 185550537,
-  "installer_sha256": "46fad13b1e16e1bb1f5bf64aa265307682d7f2bc7277b522650f86e93e1c3075"
+  "installer_url": "https://github.com/ggyx419-maker/WuhusihaiGrab-Updates/releases/download/v1.0.9/WuhusihaiGrab-Setup-v1.0.9.exe",
+  "installer_size": 184312559,
+  "installer_sha256": "2af7e698d2c25cbda13799790ac3f06c89b418ae6cac3ae5561426046c42c1ce"
 }
