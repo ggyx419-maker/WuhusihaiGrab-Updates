@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "version": "1.0.9",
+  "version": "1.0.10",
   "force_update": true,
   "min_supported_version": "0.0.0",
   "release_notes": [
-    "修复 RM 站点后端间歇性返回 Code=0 但缺少 Data 的不完整响应，改为静默重试，避免误报无订单",
-    "适配 onezhifu.xyz 新域名"
+    "新增「天涯」代付平台适配（X系统）：识别域名、默认打开代付抢单页、支持金额筛选",
+    "修复「天涯」抢单时订单 ID 以字符串发送被服务端拒绝（int64），导致全部订单抢单失败"
   ],
-  "installer_url": "https://github.com/ggyx419-maker/WuhusihaiGrab-Updates/releases/download/v1.0.9/WuhusihaiGrab-Setup-v1.0.9.exe",
-  "installer_size": 184312559,
-  "installer_sha256": "2af7e698d2c25cbda13799790ac3f06c89b418ae6cac3ae5561426046c42c1ce"
+  "installer_url": "https://github.com/ggyx419-maker/WuhusihaiGrab-Updates/releases/download/v1.0.10/WuhusihaiGrab-Setup-v1.0.10.exe",
+  "installer_size": 184300805,
+  "installer_sha256": "a3a09f4c6b98f70a78804d0df417c621461bdd8763261ec9260b87a310fb043d"
 }
