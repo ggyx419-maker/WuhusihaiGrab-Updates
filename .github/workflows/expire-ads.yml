@@ -1,0 +1,27 @@
+name: expire-ads
+
+on:
+  schedule:
+    - cron: "0 0 * * *"      # UTC 00:00 = 北京时间 08:00
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  expire:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Drop expired advertisements
+        run: python scripts/expire_ads.py
+      - name: Commit if changed
+        run: |
+          git config user.name "ggyx419-maker"
+          git config user.email "290147410+ggyx419-maker@users.noreply.github.com"
+          git add ads.json
+          git diff --cached --quiet && echo "no expired advertisements" || git commit -m "chore: expire advertisements"
+          git push origin HEAD:main
