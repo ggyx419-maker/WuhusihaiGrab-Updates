@@ -1,14 +1,13 @@
 {
   "schema_version": 1,
-  "version": "1.0.12",
+  "version": "1.0.13",
   "force_update": true,
   "min_supported_version": "0.0.0",
   "release_notes": [
-    "修复抢单过程中登录检查瞬时误判（页面跳转/域名切换/平台临时响应）导致抢单被判定为已登出并停止：现在需连续 3 次确认未登录才会停止",
-    "修复抢单线程因运行状态保存异常静默退出，导致界面卡在「运行中」、停止按钮失效的问题",
-    "诊断反馈优化：未选择分身时也会导出最近任务记录与运行日志；数据库连接启用 WAL 降低锁冲突"
+    "修复 ONE 平台接口加密升级到 v3 后抢不到单：适配器改用页面自带加密通道生成信封（平台旧信封已不再接受）",
+    "平台持续返回空响应时给出可见提示并携带平台原始消息，不再只显示“正在监听订单”"
   ],
-  "installer_url": "https://github.com/ggyx419-maker/WuhusihaiGrab-Updates/releases/download/v1.0.12/WuhusihaiGrab-Setup-v1.0.12.exe",
-  "installer_size": 185599157,
-  "installer_sha256": "c1966d4b26154a6a60667d006a7c400b4801633af7cc52d35c0731b668b1dd55"
+  "installer_url": "https://github.com/ggyx419-maker/WuhusihaiGrab-Updates/releases/download/v1.0.13/WuhusihaiGrab-Setup-v1.0.13.exe",
+  "installer_size": 185580606,
+  "installer_sha256": "e207380990bc109ee4ea875b5306c9255c8a15a68e8825f55ce48e34c2188788"
 }
