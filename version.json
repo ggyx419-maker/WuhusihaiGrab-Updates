@@ -1,12 +1,14 @@
 {
   "schema_version": 1,
-  "version": "1.0.11",
+  "version": "1.0.12",
   "force_update": true,
   "min_supported_version": "0.0.0",
   "release_notes": [
-    "修复：退出登录后抢单循环自动停止，不再继续后台轮询"
+    "修复抢单过程中登录检查瞬时误判（页面跳转/域名切换/平台临时响应）导致抢单被判定为已登出并停止：现在需连续 3 次确认未登录才会停止",
+    "修复抢单线程因运行状态保存异常静默退出，导致界面卡在「运行中」、停止按钮失效的问题",
+    "诊断反馈优化：未选择分身时也会导出最近任务记录与运行日志；数据库连接启用 WAL 降低锁冲突"
   ],
-  "installer_url": "https://github.com/ggyx419-maker/WuhusihaiGrab-Updates/releases/download/v1.0.11/WuhusihaiGrab-Setup-v1.0.11.exe",
-  "installer_size": 185580757,
-  "installer_sha256": "d885915e555142598f7902c72048ca138de5318496006317e4143cb02a814b30"
+  "installer_url": "https://github.com/ggyx419-maker/WuhusihaiGrab-Updates/releases/download/v1.0.12/WuhusihaiGrab-Setup-v1.0.12.exe",
+  "installer_size": 185599157,
+  "installer_sha256": "c1966d4b26154a6a60667d006a7c400b4801633af7cc52d35c0731b668b1dd55"
 }
