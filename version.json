@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "version": "1.0.13",
+  "version": "1.0.14",
   "force_update": true,
   "min_supported_version": "0.0.0",
   "release_notes": [
-    "修复 ONE 平台接口加密升级到 v3 后抢不到单：适配器改用页面自带加密通道生成信封（平台旧信封已不再接受）",
-    "平台持续返回空响应时给出可见提示并携带平台原始消息，不再只显示“正在监听订单”"
+    "修复部分电脑上 Windows 签名校验通道不可用（如安全软件拦截 PowerShell）导致自动更新失败：签名校验改为尽力而为，安装包完整性仍由 SHA-256 把关",
+    "ONE 平台接口加密 v3 适配：抢不到单问题已在 v1.0.13 修复"
   ],
-  "installer_url": "https://github.com/ggyx419-maker/WuhusihaiGrab-Updates/releases/download/v1.0.13/WuhusihaiGrab-Setup-v1.0.13.exe",
-  "installer_size": 185580606,
-  "installer_sha256": "e207380990bc109ee4ea875b5306c9255c8a15a68e8825f55ce48e34c2188788"
+  "installer_url": "https://github.com/ggyx419-maker/WuhusihaiGrab-Updates/releases/download/v1.0.14/WuhusihaiGrab-Setup-v1.0.14.exe",
+  "installer_size": 185568150,
+  "installer_sha256": "51a99ae173e0fd98abdec08ef180152d2870bf2a6f0930bd2476dbc381f68419"
 }
