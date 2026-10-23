@@ -1,15 +1,14 @@
 {
   "schema_version": 1,
-  "version": "1.0.16",
+  "version": "1.0.17",
   "force_update": true,
   "min_supported_version": "0.0.0",
   "release_notes": [
-    "内嵌浏览器恢复 GPU 加速：刷新页面不再整窗卡顿，低配电脑也明显流畅",
-    "「成功后停止抢单」严格只抢一单：修复跨批次窗口的双单竞态",
-    "抢单与登录稳定性修复：脏订单数据容错、登录凭证快照可诊断、锁单重试保留幂等标识",
-    "审计日志自愈、更新流程超时兜底、诊断页性能优化"
+    "稳定性修复：抢单循环异常不再卡死分身，结果落库失败全程留痕，可重启恢复",
+    "老电脑更流畅：数据库写入降载、界面批量刷新、广告图缩放缓存、启动清理后移",
+    "安全兜底：多分身并发状态加锁防串号；低内存电脑开第 4/5 个分身前会提醒"
   ],
-  "installer_url": "https://github.com/ggyx419-maker/WuhusihaiGrab-Updates/releases/download/v1.0.16/WuhusihaiGrab-Setup-v1.0.16.exe",
-  "installer_size": 188293084,
-  "installer_sha256": "80e79d0e40293f59fd406d7c66d6b7b92cb5a86ccff6fabe68ec637eb6599b25"
+  "installer_url": "https://github.com/ggyx419-maker/WuhusihaiGrab-Updates/releases/download/v1.0.17/WuhusihaiGrab-Setup-v1.0.17.exe",
+  "installer_size": 188606964,
+  "installer_sha256": "c7d1f251ff45b91f35bd3dea2d3d248dfb8e12fc4a6908a6ed38e33b1131a4e7"
 }
