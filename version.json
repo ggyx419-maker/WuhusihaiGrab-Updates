@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
-  "version": "1.0.17",
+  "version": "1.0.18",
   "force_update": true,
   "min_supported_version": "0.0.0",
   "release_notes": [
-    "稳定性修复：抢单循环异常不再卡死分身，结果落库失败全程留痕，可重启恢复",
-    "老电脑更流畅：数据库写入降载、界面批量刷新、广告图缩放缓存、启动清理后移",
-    "安全兜底：多分身并发状态加锁防串号；低内存电脑开第 4/5 个分身前会提醒"
+    "扫码代付归一：勾选“扫码代付”即可抢所有扫码类通道，含支付宝图片代付",
+    "旧配置里的“扫码支付”自动兼容，无需重新设置",
+    "支付方式检查日志与实际过滤逻辑统一"
   ],
-  "installer_url": "https://github.com/ggyx419-maker/WuhusihaiGrab-Updates/releases/download/v1.0.17/WuhusihaiGrab-Setup-v1.0.17.exe",
-  "installer_size": 188606964,
-  "installer_sha256": "c7d1f251ff45b91f35bd3dea2d3d248dfb8e12fc4a6908a6ed38e33b1131a4e7"
+  "installer_url": "https://github.com/ggyx419-maker/WuhusihaiGrab-Updates/releases/download/v1.0.18/WuhusihaiGrab-Setup-v1.0.18.exe",
+  "installer_size": 188625846,
+  "installer_sha256": "29e8cf8b756869c6ef0a2db7b7b4318211a9bdf64952a4d7939faecc98f0b877"
 }
