@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
-  "version": "1.0.18",
+  "version": "1.0.19",
   "force_update": true,
   "min_supported_version": "0.0.0",
   "release_notes": [
-    "扫码代付归一：勾选“扫码代付”即可抢所有扫码类通道，含支付宝图片代付",
-    "旧配置里的“扫码支付”自动兼容，无需重新设置",
-    "支付方式检查日志与实际过滤逻辑统一"
+    "二次单可管：支持识别平台二次单，配置里勾选“不抢”即可自动拦截，支付宝/银行卡/扫码通道全覆盖",
+    "日志大升级：轮询汇总、候选单播报、抢单成功通知全面改版，一眼看清抢没抢、为什么没抢",
+    "配置变更即时播报：保存配置后自动提示改了什么，不用再翻设置确认"
   ],
-  "installer_url": "https://github.com/ggyx419-maker/WuhusihaiGrab-Updates/releases/download/v1.0.18/WuhusihaiGrab-Setup-v1.0.18.exe",
-  "installer_size": 188625846,
-  "installer_sha256": "29e8cf8b756869c6ef0a2db7b7b4318211a9bdf64952a4d7939faecc98f0b877"
+  "installer_url": "https://github.com/ggyx419-maker/WuhusihaiGrab-Updates/releases/download/v1.0.19/WuhusihaiGrab-Setup-v1.0.19.exe",
+  "installer_size": 188618075,
+  "installer_sha256": "b17c146d30ec381e21ea4ba2c58277741744e559fef54400fd003f9c77d5fac4"
 }
