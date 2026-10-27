@@ -1,16 +1,16 @@
 {
   "schema_version": 1,
-  "version": "1.0.20",
+  "version": "1.0.21",
   "force_update": true,
   "min_supported_version": "0.0.0",
   "release_notes": [
-    "不再误停：供应商通道临时禁用不再被当成“账号被停”，遇到只换单继续抢",
-    "升级更快更稳：软件内检查更新与安装包下载自动切换国内加速线路",
-    "防重复抢：自己抢过又释放的订单自动跳过，不白跑",
-    "过盾更狠：遇到盾自动开独立页面过验证并模拟点击，直发通道更耐用",
-    "抢到单显示银行卡归属（银行+卡类型），上传凭证可直接用剪贴板截图"
+    "抢单更稳：STOP 跨批在途订单统一闸门，冷却重抢结果落库，杜绝同批次重复抢单",
+    "浏览器修复：KK 平台 cookie 读取不再崩溃、过盾临时页不再残留、直发误报熔断，页内 token 用后清理",
+    "界面统一：文件对话框随主题换肤、玻璃层与几何收口、弹出层与横向滚动条统一配色",
+    "数字更整齐：订单号与金额等宽数字对齐，动效按性格分级，深/浅色观感一致",
+    "崩溃兜底：崩溃回调线程守卫、退出时进程强制回收、每秒抢单轮询后台化不卡界面"
   ],
-  "installer_url": "https://github.com/ggyx419-maker/WuhusihaiGrab-Updates/releases/download/v1.0.20/WuhusihaiGrab-Setup-v1.0.20.exe",
-  "installer_size": 188622793,
-  "installer_sha256": "7dc654ef6194549d7e66fd73411a798244f9386ff1bc037938094fbcd8f7dbb3"
+  "installer_url": "https://github.com/ggyx419-maker/WuhusihaiGrab-Updates/releases/download/v1.0.21/WuhusihaiGrab-Setup-v1.0.21.exe",
+  "installer_size": 188638066,
+  "installer_sha256": "2eaf70e086eaec33d0cc9dd5367541d7723a4df30c730bf12beeced65dbd9726"
 }
