@@ -1,16 +1,15 @@
 {
   "schema_version": 1,
-  "version": "1.0.21",
+  "version": "1.0.22",
   "force_update": true,
   "min_supported_version": "0.0.0",
   "release_notes": [
-    "抢单更稳：STOP 跨批在途订单统一闸门，冷却重抢结果落库，杜绝同批次重复抢单",
-    "浏览器修复：KK 平台 cookie 读取不再崩溃、过盾临时页不再残留、直发误报熔断，页内 token 用后清理",
-    "界面统一：文件对话框随主题换肤、玻璃层与几何收口、弹出层与横向滚动条统一配色",
-    "数字更整齐：订单号与金额等宽数字对齐，动效按性格分级，深/浅色观感一致",
-    "崩溃兜底：崩溃回调线程守卫、退出时进程强制回收、每秒抢单轮询后台化不卡界面"
+    "更抗崩溃：数据库被杀毒软件/同步盘等临时占用时不再整体崩溃，锁释放后自动恢复",
+    "抢单不中断：界面读写数据库失败改为兜底处理，正在进行的抢单不受影响",
+    "崩溃诊断增强：上报脱敏错误消息，环境类故障（数据库锁/磁盘）可精确定位",
+    "承接 v1.0.21：跨批防双抢、KK cookie 修复、每秒抢单轮询后台化全部保留"
   ],
-  "installer_url": "https://github.com/ggyx419-maker/WuhusihaiGrab-Updates/releases/download/v1.0.21/WuhusihaiGrab-Setup-v1.0.21.exe",
-  "installer_size": 188638066,
-  "installer_sha256": "2eaf70e086eaec33d0cc9dd5367541d7723a4df30c730bf12beeced65dbd9726"
+  "installer_url": "https://github.com/ggyx419-maker/WuhusihaiGrab-Updates/releases/download/v1.0.22/WuhusihaiGrab-Setup-v1.0.22.exe",
+  "installer_size": 188288070,
+  "installer_sha256": "0111fe4210bf00fc1cd8e798c54bba18b516cd89f9aac0f031a9ab3909fce45a"
 }
