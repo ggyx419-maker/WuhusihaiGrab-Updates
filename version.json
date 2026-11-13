@@ -1,15 +1,16 @@
 {
   "schema_version": 1,
-  "version": "1.0.22",
+  "version": "1.0.23",
   "force_update": true,
   "min_supported_version": "0.0.0",
   "release_notes": [
-    "更抗崩溃：数据库被杀毒软件/同步盘等临时占用时不再整体崩溃，锁释放后自动恢复",
-    "抢单不中断：界面读写数据库失败改为兜底处理，正在进行的抢单不受影响",
-    "崩溃诊断增强：上报脱敏错误消息，环境类故障（数据库锁/磁盘）可精确定位",
-    "承接 v1.0.21：跨批防双抢、KK cookie 修复、每秒抢单轮询后台化全部保留"
+    "抢单不漏单：X 系平台二次单判定按平台真实规则重写，刚释放 1~2 秒内重发的单不再被误拦",
+    "页面自愈：平台页面渲染进程崩溃后自动恢复，页面不再凭空消失",
+    "内存保护恢复生效：内存水位监控此前一直静默失效，已修复，长时间运行更稳",
+    "界面精简：下线工作台「最近结果」卡",
+    "承接 v1.0.22：DB 锁超时不崩、主线程兜底、崩溃遥测脱敏全部保留"
   ],
-  "installer_url": "https://github.com/ggyx419-maker/WuhusihaiGrab-Updates/releases/download/v1.0.22/WuhusihaiGrab-Setup-v1.0.22.exe",
-  "installer_size": 188288070,
-  "installer_sha256": "0111fe4210bf00fc1cd8e798c54bba18b516cd89f9aac0f031a9ab3909fce45a"
+  "installer_url": "https://github.com/ggyx419-maker/WuhusihaiGrab-Updates/releases/download/v1.0.23/WuhusihaiGrab-Setup-v1.0.23.exe",
+  "installer_size": 188921313,
+  "installer_sha256": "eecf5a55154a3a834e9aeb7d929cb88b990e5598716c97927d48b0aaf61e8cd2"
 }
